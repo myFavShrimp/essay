@@ -3,6 +3,12 @@ name = "essay"
 version = "0.1.0"
 edition = "2024"
 description = "Generates tests for functions from attribute macros."
+license = "MIT"
+repository = "https://github.com/myFavShrimp/essay"
+authors = ["myFavShrimp <42263661+myFavShrimp@users.noreply.github.com>"]
+readme = "README.md"
+keywords = ["testing", "proc-macro", "test-generation"]
+categories = ["development-tools::testing"]
 
 [lib]
 proc-macro = true
