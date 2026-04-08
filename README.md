@@ -1,5 +1,16 @@
 # essay
 
+[![Crates.io][crates-badge]][crates-url]
+[![Docs.rs][docs-badge]][docs-url]
+[![Build Status][actions-badge]][actions-url]
+
+[crates-badge]: https://img.shields.io/crates/v/essay.svg
+[crates-url]: https://crates.io/crates/essay
+[docs-badge]: https://img.shields.io/docsrs/essay/latest.svg?logo=docsdotrs&label=docs.rs
+[docs-url]: https://docs.rs/essay
+[actions-badge]: https://github.com/myFavShrimp/essay/actions/workflows/ci.yml/badge.svg
+[actions-url]: https://github.com/myFavShrimp/essay/actions/workflows/ci.yml
+
 Generates tests for functions from attribute macros.
 
 The crate is runtime-agnostic and knows nothing about databases, HTTP clients or async runtimes.
